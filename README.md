@@ -2,5 +2,6 @@
 
 ## 目录
 - [LisApplication] (./LisApplication.md)
+- [LisApplication](./LisApplication.md)
 
 
