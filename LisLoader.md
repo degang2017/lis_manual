@@ -25,6 +25,7 @@ class Hello{
 $app = new \Lis\Application();
 \Lis\Loader::import(dirname(__FILE__)."/util/Hello.php");
 Hello::test();
+$app->run();
 ?>
 
 ```

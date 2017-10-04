@@ -37,7 +37,7 @@ $app = new \Lis\Application();
 \Lis\Route::group('/user/{id_3-3:[0-9]+}/age/{age:[0-9]+}/', function(){
 	\Lis\Route::get('/name/{name:[a-zA-Z]+}/reset-password','HomeController:home');
 }))->middleware('Middle:test');
-
+$app->run();
 ?>
 
 ```

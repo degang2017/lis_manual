@@ -45,6 +45,7 @@ $app = new \Lis\Application();
 var_dump(\Lis\Container::get());
 var_dump(\Lis\Container::add("test", $test));
 var_dump(\Lis\Container::get("test"));
+$app->run();
 
 ?>
 

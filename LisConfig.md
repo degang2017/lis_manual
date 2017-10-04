@@ -20,6 +20,7 @@ final LisConfig {
 $app = new \Lis\Application();
 var_dump(\Lis\Config::set('db', [ 'user' => 'db1', 'passport' => '123']));
 var_dump(\lis\Config::get('db'));
+$app->run();
 ?>
 
 ```

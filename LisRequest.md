@@ -41,6 +41,8 @@ var_dump(\Lis\Request::getMethod());
 	\Lis\Route::cli('/name1/{name:[a-zA-Z]+}/reset-password', 'HomeController:indexAction');
 });
 
+$app->run();
+
 ```
 
 #### 输出

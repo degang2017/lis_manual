@@ -37,6 +37,7 @@ $environ = \Lis\Application::getEnviron();
 $appDirectory = \Lis\Application::getAppDirectory();
 echo LIS_VERSION."\n";
 var_dump($environ, $test);
+$app->run();
 
 ?>
 
