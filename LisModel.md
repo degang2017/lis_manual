@@ -3,7 +3,7 @@
 #### 简介
 
 ``` php
-final LisModel {
+abstract class LisModel {
 	protected static object $_pdo;
 	protected string $_dns;
 	protected string $_username;
